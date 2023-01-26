@@ -28,13 +28,13 @@ Fonts are separated by a & */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: beige;
 }
 img {
   display: block;
@@ -44,6 +44,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  
 }
 h2 {
   text-align: center;
@@ -58,6 +59,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  background-color: beige;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -107,6 +109,7 @@ nav  {
   display: flex;
 }
 nav a {
+  text-align: center;
   padding:1em;
   min-width: 120px;
   text-decoration: none;
@@ -118,6 +121,7 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  background-color: beige;
 }
 .sitemap {
   display: grid;
@@ -161,4 +165,38 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+}
+.book {
+  background-color: beige;
+  text-decoration: none;
+}
+.join {
+  background-color: beige;
+  text-decoration: none;
+}
+.book:hover {
+  background-color: beige;
+}
+.join:hover {
+  background-color: beige;
+}
+.msg {
+  background-color: beige;
+}
+footer {
+  background-color: beige;
+  color: beige;
+  text-decoration: none;
+}
+icon {
+  width: 80px;
 }
